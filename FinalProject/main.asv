@@ -19,7 +19,7 @@ try
         fprintf(s, line)
         line = fgetl(fid);
     end
-    % Close the gcode file
+    % Close the 
     fclose(fid);
 catch ME
     fclose(s)
