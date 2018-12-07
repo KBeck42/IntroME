@@ -3,7 +3,7 @@ try
 % associated with the controller 
 % Note: on a mac, the com ports may look 
 % like USBmodems, e.g.: /dev/tty.usbmodem1421
-s = serial('COM4')
+s = serial('COM6')
 % Next we will setup the port 
 %communication speed
  

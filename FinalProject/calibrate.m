@@ -1,5 +1,5 @@
 try
-s = serial('COM4')
+s = serial('COM6')
 set(s,'BaudRate',115200)
 fopen(s)
 % Set the new values of the parameters

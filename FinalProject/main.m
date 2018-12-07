@@ -1,7 +1,7 @@
 try
     % COM port for the GRBL
     % May need to change COM port
-    s = serial('COM4')
+    s = serial('COM6')
     % Setting baudrate
     set(s,'Baudrate',115200)
     % Open COM port
